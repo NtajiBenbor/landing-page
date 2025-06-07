@@ -191,6 +191,16 @@ button{
     font-size: 20px;
     font-weight: 900;
 }
+
+
+/** FOOTER SECTION **/
+
+footer{
+    background-color: #1f2937;
+    color: #f9f8fa;
+    text-align: center;
+    padding: 16px;
+}
 /* .hero , .hero *{
    border: 1px solid red;
 } *`
