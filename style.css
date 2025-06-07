@@ -1,3 +1,4 @@
+/** CSS RESETS **/
 *,
 *::after,
 *::before{
@@ -14,17 +15,29 @@ body{
     flex-direction: column;
 }
 
-h1,h2,h3,h4,h5{
-    padding: 0;
-    margin: 0;
-}
-
 ul{
     padding: 0;
     margin: 0;
     list-style: none;
     display: flex;
     gap: 12px;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+h1,h2,h3,h4,h5{
+    padding: 0;
+    margin: 0;
+}
+
+/** TYPOGRAPHY  **/
+
+body{
+    display: flex;
+    flex-direction: column;
 }
 
 a{
@@ -34,6 +47,40 @@ a{
     font-weight: 700;
 }
 
+.logo{
+    font-size: 24px;
+    color: inherit;
+}
+
+.logo span{
+    color: #3882f6;
+}
+
+.hero-main-txt{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-sec-txt{
+    font-size: 18px;
+    color: #e5e7eb; 
+}
+
+button{
+  color: inherit;
+  font-size: 18px;
+  font-weight: 700;  
+}
+
+/** LAYOUT **/
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 16px;
+}
+
 header, main, footer{
     flex: 1;
 }
@@ -41,7 +88,10 @@ header, main, footer{
 header{
     color: #f9f8fa;
     background-color: #1f2937;
+    padding-bottom: 120px; 
 }
+
+/* nav section */
 
 nav{
     display: flex;
@@ -50,18 +100,42 @@ nav{
     justify-content: space-between;
 }
 
-.logo{
-    font-size: 24px;
-    color: inherit;
+
+/* hero section */
+.hero {
+    display: flex;
+    gap: 16px;
+    margin-top: 60px;
 }
 
-span{
-    color: #3882f6;
+/* .hero , .hero *{
+   border: 1px solid red;
+} */
+
+
+.h-text-section, 
+.h-image-section{
+    flex: 1 1 auto; 
 }
 
-.container{
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 16;
+.h-text-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+
+
+button{
+    background-color: #3882f6;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+/* .hero , .hero *{
+   border: 1px solid red;
+} */
