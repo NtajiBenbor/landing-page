@@ -92,12 +92,6 @@ header{
     padding: 10px 25px;  
 }
 
-nav{
-    background-color: inherit;
-    color: inherit;
-    max-width: 1200px;
-}
-
 
 header,.hero {
     color: #f9f8fa;
@@ -107,6 +101,8 @@ header,.hero {
 /* nav section */
 
 nav{
+    background-color: inherit;
+    color: inherit;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
