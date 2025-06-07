@@ -189,13 +189,12 @@ button{
 .quote-section div{
     width: 75%;
     margin: 0 auto;
-    padding: 60px 60px;
+    padding: 40px 40px;
 }
 
 .quote-txt{
-    width: 75%;
     font-style: italic;
-    font-size: 36px;
+    font-size: 30px;
     color: #1f2937;
   
 }
@@ -209,7 +208,7 @@ button{
 /** CTA SECTION **/
 .cta-section{
     background-color: #3882f6;
-    color: #e5e7eb;
+    color: #f9f8fa;
     border-radius: 10px;
     margin: 100px auto;
 }
