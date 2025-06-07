@@ -169,8 +169,8 @@ button{
 }
 
 .card{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 
 
@@ -187,8 +187,8 @@ button{
 }
 
 .quote-section div{
-    width: 75%;
-    margin: 0 auto;
+    /* width: 75%;
+    margin: 0 auto; */
     padding: 40px 40px;
 }
 
@@ -203,6 +203,7 @@ button{
     text-align: right;
     font-size: 20px;
     font-weight: 900;
+    margin-top: 20px;
 }
 
 /** CTA SECTION **/
