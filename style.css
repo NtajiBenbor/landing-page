@@ -88,6 +88,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px 16px;
+    
 }
 
 header, main, footer{
@@ -107,10 +108,7 @@ nav{
     align-items: center;
     padding: 16px;
     justify-content: space-between;
-    position: fixed;
-    top: 0;
 
-    border: 1px solid red;
 }
 
 
