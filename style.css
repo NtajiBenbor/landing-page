@@ -40,6 +40,11 @@ a{
     color: inherit;
     font-size: 20px;
     font-weight: 700;
+    transition: all 300ms ease-in-out;
+}
+
+a:hover{
+    color: #3882f6;
 }
 
 p{
@@ -102,6 +107,10 @@ nav{
     align-items: center;
     padding: 16px;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+
+    border: 1px solid red;
 }
 
 
@@ -179,13 +188,18 @@ button{
     padding-top: 20px;
 }
 
+.quote-section div{
+    width: 75%;
+    margin: 0 auto;
+    padding: 60px 60px;
+}
+
 .quote-txt{
     width: 75%;
     font-style: italic;
     font-size: 36px;
     color: #1f2937;
-    padding: 50px 60px;
-    border: 1px solid red;
+  
 }
 
 .cite{
@@ -199,15 +213,16 @@ button{
     background-color: #3882f6;
     color: #e5e7eb;
     border-radius: 10px;
-    margin: 70px auto;
+    margin: 100px auto;
 }
 
 
 .cta-center{
-    width: 75%;
+    width: 70%;
     margin: 50px auto;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .cta-txt{
@@ -223,7 +238,12 @@ button{
 .cta-button button{
     border: 1px solid #f9f8fa;
     padding: 8px 40px;
+    transition: all 150ms ease-in;
 } 
+
+.cta-button button:hover{
+    background-color: #1f2937;
+}
 
 
 /** FOOTER SECTION **/
