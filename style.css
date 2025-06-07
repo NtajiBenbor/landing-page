@@ -9,7 +9,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: roboto;
-    font-size: 18px;
+    font-size: 20px;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -35,16 +35,16 @@ h1,h2,h3,h4,h5{
 
 /** TYPOGRAPHY  **/
 
-body{
-    display: flex;
-    flex-direction: column;
-}
-
 a{
     text-decoration: none;
     color: inherit;
     font-size: 20px;
     font-weight: 700;
+}
+
+p{
+    padding: 0;
+    margin: 0;
 }
 
 .logo{
@@ -73,6 +73,10 @@ button{
 }
 
 /** LAYOUT **/
+body{
+    display: flex;
+    flex-direction: column;
+}
 
 .container{
     width: 100%;
@@ -88,7 +92,7 @@ header, main, footer{
 header{
     color: #f9f8fa;
     background-color: #1f2937;
-    padding-bottom: 120px; 
+    padding-bottom: 100px; 
 }
 
 /* nav section */
@@ -108,10 +112,6 @@ nav{
     margin-top: 60px;
 }
 
-/* .hero , .hero *{
-   border: 1px solid red;
-} */
-
 
 .h-text-section, 
 .h-image-section{
@@ -124,7 +124,10 @@ nav{
     justify-content: center;
 }
 
-
+.hero-sec-txt{
+    margin-bottom: 20px;
+    font-size: inherit;
+}
 
 button{
     background-color: #3882f6;
@@ -135,6 +138,37 @@ button{
     cursor: pointer;
 }
 
+/** SERVICES SECTION **/
+.info-section{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.info-section h3{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 60px;
+}
+
+.cards-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: inherit;
+}
+
+.card{
+    width: 250px;
+    height: 250px;
+}
+
+
+.card img{
+    height: 70%;
+    margin-bottom: 20px;
+}
 
 /* .hero , .hero *{
    border: 1px solid red;
